@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0d0e" />
+  <meta name="description" content="Basheer Almajdoby's social channels and direct contact links." />
+  <meta property="og:title" content="SIGNAL // Basheer Almajdoby" />
+  <meta property="og:description" content="Find Basheer Almajdoby across Instagram, YouTube, Facebook, and WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <title>SIGNAL // Basheer Almajdoby</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="constellation" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Signal home">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span>SIGNAL<span class="brand-dot">.</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-link active" href="#platforms">Platforms</a>
+      <a class="nav-link" href="#about">About</a>
+    </nav>
+    <button class="contact-button share-button" type="button"><span>Share profile</span><b>↗</b></button>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="about">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="live-dot"></span> Operator online / signal clear</p>
+        <h1>Find the<br /><em>signal.</em></h1>
+        <p class="hero-intro">One profile. Four channels. Move through the network and connect wherever the signal is strongest.</p>
+        <a class="scroll-cue" href="#platforms"><span class="scroll-line"></span><span>Scroll to explore</span><span class="scroll-arrow">↓</span></a>
+      </div>
+
+      <div class="hero-orbit reveal delay-one" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="orbit-label label-top">OPERATION FREQUENCY <span>01</span></div>
+        <div class="orbit-label label-bottom"><span>LIVE</span> / BROADCASTING</div>
+        <div class="portrait-wrap">
+          <div class="portrait-halo"></div>
+          <img class="portrait" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=900&q=85" alt="Portrait" />
+          <div class="portrait-caption">YOU<br /><span>ARE HERE</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="platforms-section" id="platforms">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / Choose your channel</p>
+        <h2>Choose your<br /><span>channel.</span></h2>
+        <p class="section-note">Four live routes into the network. Select a channel to connect directly.</p>
+      </div>
+
+      <div class="platform-grid">
+        <a class="platform-card card-instagram reveal" href="https://instagram.com/basheer_almajdoby/" target="_blank" rel="noreferrer">
+          <div class="card-top"><span class="platform-index">01</span><span class="card-arrow">↗</span></div>
+          <div class="platform-glyph glyph-instagram">◎</div>
+          <div class="card-content"><h3>Instagram</h3><p>@basheer_almajdoby</p></div>
+          <div class="card-footer"><span>Visual diary</span><strong>24.8K <small>followers</small></strong></div>
+        </a>
+        <a class="platform-card card-youtube reveal delay-one" href="https://youtube.com/@BasheerAlmajdoby" target="_blank" rel="noreferrer">
+          <div class="card-top"><span class="platform-index">02</span><span class="card-arrow">↗</span></div>
+          <div class="platform-glyph glyph-youtube">▶</div>
+          <div class="card-content"><h3>YouTube</h3><p>@BasheerAlmajdoby</p></div>
+          <div class="card-footer"><span>Long-form thoughts</span><strong>8.2K <small>subscribers</small></strong></div>
+        </a>
+        <a class="platform-card card-facebook reveal delay-two" href="https://www.facebook.com/basheer.almajdoby" target="_blank" rel="noreferrer">
+          <div class="card-top"><span class="platform-index">03</span><span class="card-arrow">↗</span></div>
+          <div class="platform-glyph glyph-facebook">f</div>
+          <div class="card-content"><h3>Facebook</h3><p>/basheer.almajdoby</p></div>
+          <div class="card-footer"><span>Updates & community</span><strong>Social <small>profile</small></strong></div>
+        </a>
+        <a class="platform-card card-whatsapp reveal" href="https://wa.me/218911846855" target="_blank" rel="noreferrer">
+          <div class="card-top"><span class="platform-index">04</span><span class="card-arrow">↗</span></div>
+          <div class="platform-glyph glyph-whatsapp">◔</div>
+          <div class="card-content"><h3>WhatsApp</h3><p>+218 91 184 6855</p></div>
+          <div class="card-footer"><span>Direct messages</span><strong>Available <small>now</small></strong></div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2024 SIGNAL // OPERATION ONLINE</span>
+    <span id="share-status" aria-live="polite">Keep moving <b>↗</b></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
